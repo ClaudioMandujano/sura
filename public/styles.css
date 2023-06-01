@@ -103,7 +103,7 @@ html, body {
    
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .text-content{
         padding-top: 200px;
   }
