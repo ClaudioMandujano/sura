@@ -144,4 +144,29 @@ html, body {
  
   }
    
+
+  @media (max-width: 400px) {
+    .imgizq {
+      width: 60%;
+      float: left; /* Hace que la imagen se alinee a la izquierda */
+      left: 0%;
+      position: absolute;
+  }
+  
+  .imgder {
+      width: 50%;
+      float: right; /* Hace que la imagen se alinee a la derecha */    
+      position: absolute;
+      right: 0%;
+  }
+
+  .logo{
+    width: 25%;
+    right: 3%;
+    top: 2%;
+   }
+
+
+
+  }
   
