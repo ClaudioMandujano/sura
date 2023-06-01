@@ -8,8 +8,9 @@ html, body {
 
 body{
   background-image: url('../public/img/home.png');
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center;
   
 }
 
