@@ -45,8 +45,8 @@ html, body {
     width: 7%;
     position: absolute;
     float: right;
-    right: 10%;
-    top: 4%;
+    right: 15%;
+    top: 6%;
 }
 
 .imgizq {
@@ -57,7 +57,7 @@ html, body {
 }
 
 .imgder {
-    width: 25%;
+    width: 35%;
     float: right; /* Hace que la imagen se alinee a la derecha */    
     position: absolute;
     right: 0%;
@@ -96,8 +96,8 @@ html, body {
 
    .logo{
     width: 9%;
-    right: 8%;
-    top: 2%;
+    right: 15%;
+    top: 4%;
    }
    .text-content{
     padding-top: 20px;
@@ -111,8 +111,8 @@ html, body {
 
     .logo{
         width: 9%;
-        right: 7%;
-        top: 2%;
+        right: 15%;
+        top: 4%;
        }
 
 
@@ -124,6 +124,11 @@ html, body {
   }
 
   @media (max-width: 1024px) {
+    .logo{
+      width: 10%;
+      right: 15%;
+      top: 3%;
+     }
 
 
   .text-content{
@@ -148,14 +153,14 @@ html, body {
   @media (max-width: 400px) {
     .imgizq {
       width: 60%;
-      float: left; /* Hace que la imagen se alinee a la izquierda */
+      float: left; 
       left: 0%;
       position: absolute;
   }
   
   .imgder {
       width: 50%;
-      float: right; /* Hace que la imagen se alinee a la derecha */    
+      float: right;    
       position: absolute;
       right: 0%;
   }
@@ -165,7 +170,6 @@ html, body {
     right: 3%;
     top: 2%;
    }
-
 
 
   }
