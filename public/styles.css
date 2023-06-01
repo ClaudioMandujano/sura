@@ -6,6 +6,22 @@ html, body {
     font-family: "Barlow", sans-serif;
 }
 
+
+@keyframes fade-in {
+    from {
+      opacity: 0;      
+    }
+    to {
+      opacity: 1;      
+    }
+  }
+  
+  h1, p{
+    opacity: 0;
+    animation: fade-in 1.9s ease-in;
+    animation-fill-mode: forwards;
+  }
+
 .header-content h1, p{
     color: #0033a0; 
     font-weight: bold;       
@@ -55,6 +71,8 @@ html, body {
 
 
 @media (max-width: 1377px) {
+    
+
    .card-group{
     margin-top: 5% !important;
    }
