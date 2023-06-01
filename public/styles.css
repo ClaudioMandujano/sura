@@ -79,7 +79,7 @@ html, body {
 
 .fixed-footer img{
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -91,11 +91,11 @@ html, body {
 
 
 
-@media (max-width: 1377px) {
+@media (max-width: 1366px) {
     
 
    .card-group{
-    margin-top: 11% !important;
+    margin-bottom: 0% !important;
    }
 
    .logo{
@@ -104,7 +104,7 @@ html, body {
     top: 2%;
    }
    .text-content{
-    padding-top: 130px;
+    padding-top: 40px;
 
    }
 }
