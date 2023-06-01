@@ -115,7 +115,6 @@ html, body {
         top: 4%;
        }
 
-
     .card-group{
         margin-top: 6% !important;
         width: 70% !important;
@@ -126,8 +125,8 @@ html, body {
   @media (max-width: 1024px) {
     .logo{
       width: 10%;
-      right: 15%;
-      top: 3%;
+      right: 11%;
+      top: 2%;
      }
 
 
@@ -143,8 +142,6 @@ html, body {
     margin-top: 25% !important;
    
    }
-
- 
 
  
   }
