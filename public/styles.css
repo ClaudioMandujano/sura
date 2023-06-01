@@ -47,3 +47,22 @@ html, body {
 }
 
 
+
+
+
+@media (max-width: 1377px) {
+   .card-group{
+    margin-top: 5% !important;
+   }
+
+   .logo{
+    width: 7%;
+    right: 15%;
+    top: 5%;
+   }
+   .text-content{
+    padding-top: 150px;
+}
+
+   
+  }
