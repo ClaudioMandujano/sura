@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0; 
+    font-family: "Barlow", sans-serif;
+}
+
+.header-content h1, p{
+    color: #0033a0; 
+    font-weight: bold;       
+}
+
+.text-content{
+    padding-top: 200px;
+}
+
+.text-content h1{
+    margin-top: 0px;
+    margin-bottom: -15px;
+}
+
+.cajaheader{
+    height: 0%;
+}
+
+.logo{
+    width: 6%;
+    position: absolute;
+    float: right;
+    right: 16%;
+    top: 8%;
+}
+
+.imgizq {
+    width: 30%;
+    float: left; /* Hace que la imagen se alinee a la izquierda */
+    left: 0%;
+    position: absolute;
+}
+
+.imgder {
+    width: 35%;
+    float: right; /* Hace que la imagen se alinee a la derecha */    
+    position: absolute;
+    right: 0%;
+}
+
+
