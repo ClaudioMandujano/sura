@@ -92,12 +92,7 @@ html, body {
 
 
 
-@media (max-width: 1366px) {
-    
-
-   .card-group{
-    margin-bottom: 0% !important;
-   }
+@media (max-width: 1366px) {   
 
    .logo{
     width: 9%;
@@ -106,8 +101,13 @@ html, body {
    }
    .text-content{
     padding-top: 90px;
-
    }
+   .fixed-footer img{
+    height: 40vh !important;
+    width: 100%;
+   }
+
+
 }
 
 @media (max-width: 1200px) {
@@ -140,6 +140,10 @@ html, body {
    
    }
 
+   .fixed-footer img{
+    height: 40vh !important;
+    width: 100%;
+   }
   
 
  
