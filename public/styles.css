@@ -137,7 +137,7 @@ height: 40vh;
 
 
 .section-trivia {
-  height: 70vh;
+  height: 100vh;
   background-image: url('../public/img/flex/fondoflexamar.png');
   background-size: cover;
   background-position: center;
@@ -150,13 +150,6 @@ height: 40vh;
   margin-top: 17%; 
 }
 
-.trivia{
-  background-color: #ffff;
-  width: 50%;
-  height: 80%;
-  border-radius: 10px;  
-
-}
 .card{
   margin: 0;
   padding: 0;
@@ -173,9 +166,116 @@ height: 40vh;
     z-index: 9999;
 }
 
+.section-slider{
+  width: 100%;
+  height: 100vh;
+}
 
 
+.bg-slider{
+  background-color: #ffff;
+  padding-bottom: 30px;
+}
 
+.box-slider{
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  background: #ffff;
+  max-width: 1000px;
+}
+.wrapper-slide {  
+  padding: 30px;
+  position: relative;
+  overflow-x: hidden;
+  max-width: 1000px; /* Modifica el ancho del contenedor a un valor menor */
+  background: #fff;
+  border-radius: 13px;
+  display: flex; /* Agrega la propiedad flexbox */
+  justify-content: center; /* Centra los elementos en el contenedor */
+  align-items: center; /* Centra los elementos en el contenedor */
+}
+
+.wrapper-slide .icon {
+  height: 100%;
+  width: 120px;
+  display: flex;
+  align-items: center;  
+}
+
+.icon:first-child {
+  left: 0;
+  display: none;
+  background: linear-gradient(90deg, #fff 70%, transparent);
+}
+.icon:last-child {
+  right: 0;
+  justify-content: flex-end;
+  background: linear-gradient(-90deg, #fff 70%, transparent);
+}
+.icon i {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #ffff;
+  z-index: 1;
+}
+.icon i:hover {
+  background: #ffff;
+}
+.icon:first-child i {
+  margin-right: 15px;
+  
+} 
+.icon:last-child i {
+  margin-left: 15px;
+} 
+.wrapper-slide .tabs-box {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+.tabs-box.dragging {
+  scroll-behavior: auto;
+  cursor: grab;
+}
+.tabs-box .tab {
+  cursor: pointer;
+  font-size: 1.18rem;
+  white-space: nowrap;  
+  padding: 13px 20px;
+  border-radius: 30px; 
+}
+
+.tabs-box.dragging .tab {
+  user-select: none;
+  pointer-events: none;
+}
+
+.tabs-box .tab.active img{
+  filter: grayscale(0%);
+}
+
+.fa-angle-right {
+  font-size: 250% !important; /* Ajusta el tamaño del icono */
+  font-weight:bold; /* Ajusta el grosor del icono */
+  color: #0033a0;
+}
+.fa-angle-left {
+  font-size: 250% !important; /* Ajusta el tamaño del icono */
+  font-weight: bold; /* Ajusta el grosor del icono */
+  color: #0033a0;
+}
 
 
 
