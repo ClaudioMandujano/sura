@@ -368,6 +368,9 @@ height: 40vh;
     position: absolute;     
    }     
   
+   .section-video{
+    height: 150vh;
+   }
 
   }
   
