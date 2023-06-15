@@ -375,6 +375,12 @@ height: 40vh;
     height: 100vh;
     margin-top: 20%;
    }
+
+   .wrapper-slide{
+    padding: 0;
+    max-width: 100%;
+   }
+
    header{
     height: 50vh;
    }
