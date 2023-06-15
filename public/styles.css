@@ -363,9 +363,11 @@ height: 40vh;
     margin-top: 10%;
     margin-bottom: 10%;
    }
+     
    .imgonda{
     z-index: -2;
-    position: absolute;     
+    width: 30%;
+    top: 50%;      
    }     
   
    .section-video{
