@@ -291,7 +291,6 @@ height: 40vh;
    }
   
 
-
 }
 
 @media (max-width: 1200px) {
@@ -334,7 +333,7 @@ height: 40vh;
   }
    
 
-  @media (max-width: 400px) {
+  @media (max-width: 415px) {
     .imgizq {
       width: 60%;
       float: left; 
@@ -355,6 +354,21 @@ height: 40vh;
     top: 2%;
    }
 
+   .section-flex{
+    margin-top: 170%;
+    height: 100vh;
+   }
+
+   .section-flex h1{
+    margin-top: 10%;
+    margin-bottom: 10%;
+   }
+   .imgonda{
+    z-index: -2;
+    position: absolute;
+     
+   }
+     
 
   }
   
