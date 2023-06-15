@@ -355,7 +355,7 @@ height: 40vh;
    }
 
    .section-flex{
-    margin-top: 170%;
+    margin-top: 200%;
     height: 100vh;
    }
 
@@ -365,10 +365,9 @@ height: 40vh;
    }
    .imgonda{
     z-index: -2;
-    position: absolute;
-     
-   }
-     
+    position: absolute;     
+   }     
+  
 
   }
   
