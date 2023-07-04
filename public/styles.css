@@ -455,21 +455,22 @@ height: 10vh;
 
    .section-flex{
     margin-top: 180%;
-    height: 135vh;
+    height: 135vh;   
    }
 
    .section-flex h1{
     margin-top: 10%;
     margin-bottom: 10%;
+    z-index: 2;
    }
      
    .imgonda{
-    z-index: -2;
-    width: 30%;
-    top: 70%;      
+    z-index: 0;
+    width: 45%;
+    top: 95%;      
    }     
   
-   .section-video{
+   .section-video{    
     height: 160vh;    
    }
    .section-trivia{
@@ -485,11 +486,11 @@ height: 10vh;
     padding: 0;
     max-width: 100%;
    }
-
-   header{
-    height: 50vh;
+   
+   .section-flex p{
+    z-index: 2;
    }
-
+  
   
 
   }
