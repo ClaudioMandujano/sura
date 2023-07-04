@@ -334,16 +334,15 @@ height: 10vh;
   position: relative;
 }
 
-.img-footer::before {
-  content: "";
-  background-image: url('../public/img/flex/flexfoot.png');
+.img-footer::before{
+  content: "";  
   background-repeat: no-repeat;
   background-position: bottom left;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   z-index: -1;
 }
 
@@ -375,7 +374,7 @@ height: 10vh;
    }
 
    .section-trivia{
-    height: 110vh;
+    height: 120vh;
     padding-bottom: 20px;
    }
 
