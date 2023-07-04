@@ -377,10 +377,14 @@ height: 10vh;
 
    .section-trivia{
     height: 100vh;
+    padding-bottom: 20px;
    }
 
    .section-slider{
     height: 100vh;
+   }
+   .section-footer{
+    height: 60vh;
    }
 
 }
