@@ -358,15 +358,21 @@ height: 10vh;
 
 @media (max-width: 1366px) {   
 
+
+
    .logo{
     width: 9%;
     right: 15%;
-    top: 4%;
+    top: 3%;
    }
    .text-content{
-    padding-top: 20px;
+    padding-top: 10px;
    }
-  
+
+   .flex-content{
+    height: 65vh;
+   }
+   
 
 }
 
