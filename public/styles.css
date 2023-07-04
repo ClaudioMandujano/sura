@@ -359,15 +359,15 @@ height: 10vh;
 @media (max-width: 1366px) {   
 
 
-
    .logo{
     width: 9%;
     right: 15%;
     top: 3%;
+    z-index: -1;
    }   
 
    .flex-content{
-    height: 65vh;
+    height: 70vh;
    }
    
    .section-video{
