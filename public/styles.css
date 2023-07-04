@@ -228,7 +228,7 @@ height: 40vh;
   justify-content: center;
   min-height: 20vh;
   background: #ffff;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .wrapper-slide {  
@@ -282,7 +282,7 @@ height: 40vh;
 } 
 .wrapper-slide .tabs-box {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   list-style: none;
   overflow-x: hidden;
   scroll-behavior: smooth;
