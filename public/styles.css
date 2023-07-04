@@ -448,8 +448,8 @@ height: 10vh;
    }
 
    .section-flex{
-    margin-top: 200%;
-    height: 100vh;
+    margin-top: 180%;
+    height: 130vh;
    }
 
    .section-flex h1{
@@ -464,12 +464,16 @@ height: 10vh;
    }     
   
    .section-video{
-    height: 200vh;
+    height: 140vh;    
    }
    .section-trivia{
-    height: 100vh;
-    margin-top: 20%;
+    height: 155vh;    
    }
+
+   .section-slider{
+    height: 50vh;
+   }
+
 
    .wrapper-slide{
     padding: 0;
