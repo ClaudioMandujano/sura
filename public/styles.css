@@ -383,8 +383,8 @@ height: 10vh;
    .section-slider{
     height: 100vh;
    }
-   .section-footer{
-    height: 40vh;
+   .section-footer img{
+    width: 60%;
    }
 
 }
