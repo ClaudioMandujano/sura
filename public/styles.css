@@ -364,17 +364,14 @@ height: 10vh;
     width: 9%;
     right: 15%;
     top: 3%;
-   }
-   .text-content{
-    padding-top: 10px;
-   }
+   }   
 
    .flex-content{
-    height: 100vh;
+    height: 85vh;
    }
    
    .section-video{
-    height: 65vh;
+    height: 100vh;
    }
 
 }
