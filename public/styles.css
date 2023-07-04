@@ -451,6 +451,7 @@ height: 10vh;
     height: 60vh;   
     padding-bottom: 20%;
    }
+ 
 
 
    .section-flex{
@@ -465,9 +466,9 @@ height: 10vh;
    }
      
    .imgonda{
-    z-index: 0;
-    width: 45%;
-    top: 95%;      
+    z-index: 100;
+    width: 20%;
+    top: 100%;      
    }     
   
    .section-video{    
@@ -481,14 +482,13 @@ height: 10vh;
     height: 60vh;
    }
 
-
    .wrapper-slide{
     padding: 0;
     max-width: 100%;
    }
    
    .section-flex p{
-    z-index: 2;
+    z-index: 1;
    }
   
   
