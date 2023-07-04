@@ -370,9 +370,12 @@ height: 10vh;
    }
 
    .flex-content{
-    height: 65vh;
+    height: 100vh;
    }
    
+   .section-video{
+    height: 65vh;
+   }
 
 }
 
