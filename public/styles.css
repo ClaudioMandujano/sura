@@ -367,7 +367,8 @@ height: 10vh;
    }   
 
    .flex-content{
-    height: 70vh;
+    height: 75vh;
+    margin-bottom: 20px;
    }
    
    .section-video{
