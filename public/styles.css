@@ -281,8 +281,7 @@ height: 40vh;
   margin-left: 15px;
 } 
 .wrapper-slide .tabs-box {
-  display: flex;
-  gap: 8px;
+  display: flex; 
   list-style: none;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -365,16 +364,16 @@ height: 10vh;
    }   
 
    .flex-content{
-    height: 73vh;   
+    height: 83vh;   
     padding-bottom: 17%;
    }
    
    .section-video{
-    height: 100vh;
+    height: 110vh;
    }
 
    .section-trivia{
-    height: 120vh;
+    height: 130vh;
     padding-bottom: 20px;
    }
 
