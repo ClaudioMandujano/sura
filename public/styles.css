@@ -367,10 +367,14 @@ height: 10vh;
    }   
 
    .flex-content{
-    height: 85vh;
+    height: 75vh;
    }
    
    .section-video{
+    height: 100vh;
+   }
+
+   .section-trivia{
     height: 100vh;
    }
 
