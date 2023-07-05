@@ -466,9 +466,9 @@ height: 10vh;
    }
      
    .imgonda{
-    z-index: 100;
-    width: 20%;
-    top: 100%;      
+    z-index: 0;
+    width: 35%;
+    top: 125%;      
    }     
   
    .section-video{    
