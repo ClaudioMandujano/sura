@@ -464,7 +464,13 @@ height: 10vh;
     margin-bottom: 10%;
     z-index: 2;
    }
-     
+    
+   .texto-flex-img{
+    position: relative;
+    z-index: 1;
+   }
+
+
    .imgonda{
     z-index: 0;
     width: 35%;
