@@ -5,7 +5,9 @@ html, body {
     margin: 0; 
     font-family: "Barlow", sans-serif;
 }
-
+body p{
+  line-height: 1.7rem;
+}
 
 @keyframes fade-in {
     from {
